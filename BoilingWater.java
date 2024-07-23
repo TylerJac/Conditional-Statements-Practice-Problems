@@ -6,7 +6,7 @@ public class BoilingWater {
         System.out.print("Enter a number greater than 212: ");
         double temperature = scanner.nextDouble();
 
-        if (temperature > 212) {
+        if (temperature >= 212) {
             System.out.println("The water is boiling!");
         }
         scanner.close();
